@@ -310,7 +310,7 @@ void update_game(Game *game) {
         DrawLineV(game->nodes[i].pos, game->nodes[(i + 1) % game->node_count].pos, BLACK);
       }
 
-      DrawText("SPACE TO START", SCREEN_WIDTH / 2 - 80, SCREEN_HEIGHT / 2 - 10, 20, DARKGRAY);
+      DrawText("SPACE TO START N TO PLACE NODES MUST BE MORE 1", SCREEN_WIDTH / 2 - 290, SCREEN_HEIGHT / 2 - 10, 20, DARKGRAY);
       break;
 
     case IN_PLAY:
